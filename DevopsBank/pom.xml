@@ -283,17 +283,6 @@
         <artifactId>maven-failsafe-report-plugin</artifactId>
         <version>2.19.1</version>
       </plugin>
-      <plugin>
-           <groupId>org.codehaus.mojo</groupId>
-           <artifactId>cobertura-maven-plugin</artifactId>
-           <version>2.6</version>
-           <configuration>
-               <formats>
-	<format>html</format>
-	<format>xml</format>
-               </formats>
-          </configuration>
-      </plugin>
    </plugins>  
   </reporting>
   <profiles>
@@ -651,6 +640,7 @@
                  <configuration>
                     <formats>
                       <format>xml</format>
+                      <format>html</html>
                     </formats>
                   </configuration>
                   <executions>
