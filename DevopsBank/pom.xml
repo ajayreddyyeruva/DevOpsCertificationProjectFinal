@@ -640,7 +640,7 @@
                  <configuration>
                     <formats>
                       <format>xml</format>
-                      <format>html</html>
+                      <format>html</format>
                     </formats>
                   </configuration>
                   <executions>
