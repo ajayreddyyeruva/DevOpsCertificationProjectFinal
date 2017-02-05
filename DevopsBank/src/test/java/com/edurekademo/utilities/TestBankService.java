@@ -1,7 +1,5 @@
 package com.edureka.utilities;
 
-import static org.mockito.Mockito.when;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,26 +13,10 @@ import junit.framework.TestCase;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 
 
 public class TestBankService extends TestCase{
 
-	 @Mock
-	 HttpServletRequest request;
-	 @Mock
-	 HttpServletResponse response;
-	 @Mock
-	 static HttpSession session;
-
-	 @Mock
-	 RequestDispatcher rd;
-		 
-	 @Before
-	 protected void setUp() throws Exception {
-	  MockitoAnnotations.initMocks(this);  
-	 }
 
 	 @Test
 	 public void testLogin() throws Exception {
